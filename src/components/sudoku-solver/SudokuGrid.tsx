@@ -72,7 +72,7 @@ export const SudokuGrid: React.FC<SudokuGridProps> = ({
     selectedCell: CellPosition | null
   ): string => {
     return `
-      relative w-12 h-12
+      relative flex items-center justify-center w-12 h-12 
       ${theme === 'dark' ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'}
       ${cell.isOriginal ? 'font-bold' : ''}
       ${cell.isHighlighted ? (theme === 'dark' ? 'bg-blue-900' : 'bg-blue-50') : ''}

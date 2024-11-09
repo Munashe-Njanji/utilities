@@ -58,6 +58,7 @@ function isValid(
 
   return true;
 }
+
 export function createEmptyGrid(): SudokuGrid {
   return Array.from({ length: 9 }, () =>
     Array.from({ length: 9 }, () => ({
