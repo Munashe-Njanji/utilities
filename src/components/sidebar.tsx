@@ -102,6 +102,10 @@ const routes = [
             { label: "Currency Converter", href: "/currency-converter" },
             { label: "Loan Calculator", href: "/loan-calculator" },
             { label: "Expense Tracker", href: "/expense-tracker" },
+            { label: "Tax Calculator", href: "/tax-calculator" },
+            { label: "Investment Portfolio", href: "/investment-portfolio" },
+            { label: "Budget Planner", href: "/budget-planner" },
+            { label: "Retirement Savings", href: "/retirement-savings" }
         ],
     },
     {
